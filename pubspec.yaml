@@ -1,7 +1,7 @@
 name: status_codes
 description: Flutter package Status Codea
 version: 0.0.1
-homepage: https://github.com/Romavic/status_code
+homepage: https://github.com/Romavic/status_codes
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
