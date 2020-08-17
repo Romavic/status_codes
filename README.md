@@ -13,35 +13,35 @@ dependencies:
   status_codes: ^0.0.1
 ```
 
-Class => HttpSuccess
+**Class => HttpSuccess**
 ```Dart
 HttpSuccess.ok()
 HttpSuccess.accepted()
 //...and others SuccessfulStatusCode...
 ```
 
-Class => HttpInformational
+**Class => HttpInformational**
 ```Dart
 HttpInformational.scContinue()
 HttpInformational.processing()
 //...and others InformationalStatusCode...
 ```
 
-Class => HttpRedirection
+**Class => HttpRedirection**
 ```Dart
 HttpRedirection.multipleChoices()
 HttpRedirection.found()
 //...and others RedirectionStatusCode...
 ```
 
-Class => HttpClientError
+**Class => HttpClientError**
 ```Dart
 HttpClientError.badRequest()
 HttpClientError.forbidden()
 //...and others ClientErrorStatusCode...
 ```
 
-Class => HttpServerError
+**Class => HttpServerError**
 ```Dart
 HttpServerError.internalServerError()
 HttpServerError.gatewayTimeout()
@@ -184,7 +184,8 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 ```
 
-**Pacage Test**
+**Package Tests**
+
 All methods of the classes in the http package passed the tests with success. 
 You can trust this package.
  
@@ -279,3 +280,5 @@ void main() {
 }
 
 ```
+![ScreenShot](https://github.com/Romavic/status_codes/blob/master/packgeFolderUtil/20200817_092917.jpg)
+
