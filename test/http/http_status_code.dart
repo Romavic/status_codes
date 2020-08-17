@@ -59,17 +59,17 @@ void main() {
   });
 
   test('Server Error', () {
-    expect(ServerError.internalServerError(), 500);
-    expect(ServerError.notImplemented(), 501);
-    expect(ServerError.badGateway(), 502);
-    expect(ServerError.serviceUnavailable(), 503);
-    expect(ServerError.gatewayTimeout(), 504);
-    expect(ServerError.httpVersionNotSupported(), 505);
-    expect(ServerError.variantAlsoNegotiates(), 506);
-    expect(ServerError.insufficientStorage(), 507);
-    expect(ServerError.loopDetected(), 508);
-    expect(ServerError.notExtended(), 510);
-    expect(ServerError.networkAuthenticationRequired(), 511);
+    expect(HttpServerError.internalServerError(), 500);
+    expect(HttpServerError.notImplemented(), 501);
+    expect(HttpServerError.badGateway(), 502);
+    expect(HttpServerError.serviceUnavailable(), 503);
+    expect(HttpServerError.gatewayTimeout(), 504);
+    expect(HttpServerError.httpVersionNotSupported(), 505);
+    expect(HttpServerError.variantAlsoNegotiates(), 506);
+    expect(HttpServerError.insufficientStorage(), 507);
+    expect(HttpServerError.loopDetected(), 508);
+    expect(HttpServerError.notExtended(), 510);
+    expect(HttpServerError.networkAuthenticationRequired(), 511);
   });
 
   test('Success', () {

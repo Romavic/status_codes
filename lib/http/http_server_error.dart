@@ -4,7 +4,7 @@
 
 var _statusCode = 0;
 
-class ServerError {
+class HttpServerError {
   static int internalServerError() {
     _statusCode = 500;
     return _statusCode;
