@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:status_code/http/http_client_error.dart';
-import 'package:status_code/http/http_informational.dart';
-import 'package:status_code/http/http_redirection.dart';
-import 'package:status_code/http/http_server_error.dart';
-import 'package:status_code/http/http_success.dart';
+import 'package:status_codes/http/http_client_error.dart';
+import 'package:status_codes/http/http_informational.dart';
+import 'package:status_codes/http/http_redirection.dart';
+import 'package:status_codes/http/http_server_error.dart';
+import 'package:status_codes/http/http_success.dart';
 
 void main() {
 
